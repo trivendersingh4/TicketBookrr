@@ -1,0 +1,4 @@
+# TicketBookrr
+"TicketBookrr" an app for ABG Cinema Theatre. The app can reserve a selected seat for the upcoming movie shows on given time options, it's basically BookMYShow type app.
+
+This is the work done and concepts learnt as a PS-I intern at Department of Information Technology, Grasim Industries, Nagda. The 20 days practice school programme gave me an opportunity to see, experience and learn the role and contribution of IT department in a chemical plant. This report first discusses the backbone of IT in any organisation, IT infrastructure. IT infrastructure mainly deals with Active Directory which is responsible for access control, information security and asset management. This report gives a brief overview of Android Development and its implementation in Grasim Industries. It also briefs the structure and development of the android application and tells about the its various features.
