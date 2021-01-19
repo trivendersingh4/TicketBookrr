@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TicketBookrr</string>
+    <string name="error_valid_email_password" />
+    <string name="error_message_email" />
+</resources>

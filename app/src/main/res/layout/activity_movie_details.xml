@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".movieDetails">
+
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:text="@string/check_details"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054"
+        android:layout_marginLeft="9dp" />
+
+    <TextView
+        android:id="@+id/empID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/emp_ID"
+        android:layout_marginStart="9dp"
+        app:layout_constraintTop_toBottomOf="@+id/details"
+        tools:layout_editor_absoluteX="16dp"
+        android:textColor="@color/textcolor"
+        android:layout_marginLeft="9dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="No. of tickets"
+        android:textColor="@color/textcolor"
+        app:layout_constraintTop_toBottomOf="@+id/empID"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/seatNumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/seat_number_s"
+        android:layout_marginStart="9dp"
+        app:layout_constraintTop_toBottomOf="@+id/tickets"
+        tools:layout_editor_absoluteX="16dp"
+        android:textColor="@color/textcolor"
+        android:layout_marginLeft="9dp" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Total amount"
+        android:textColor="@color/textcolor"
+        app:layout_constraintTop_toBottomOf="@+id/seatNumb"
+        tools:layout_editor_absoluteX="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/show_date"
+        android:textColor="@color/textcolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toEndOf="@+id/empID"
+        app:layout_constraintTop_toBottomOf="@+id/details" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/show_time"
+        android:textColor="@color/textcolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.317"
+        app:layout_constraintStart_toEndOf="@+id/tickets"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:text="Back"
+        android:textColor="@color/buttonText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amount"
+        app:layout_constraintVertical_bias="0.287" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:text="confirm"
+        android:textColor="@color/buttonText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toEndOf="@+id/back"
+
+        app:layout_constraintTop_toBottomOf="@+id/amount"
+        app:layout_constraintVertical_bias="0.287" />
+</android.support.constraint.ConstraintLayout>
